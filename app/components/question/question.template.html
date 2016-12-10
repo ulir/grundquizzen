@@ -1,0 +1,24 @@
+<div>
+  Frage {{$ctrl.currentIndex + 1}}
+</div>
+<div>
+{{$ctrl.current.text}}
+</div>
+<div ng-repeat="option in $ctrl.current.options">
+  <button type="button"
+	  class="btn btn-block"
+	  ng-class="{'btn-default':(!$ctrl.current.answered), 'btn-success':($ctrl.current.answered && option.correct), 'btn-danger':($ctrl.current.answered && option.selected && !option.correct)}"
+	  ng-click="!$ctrl.current.answered && ($ctrl.current.answered=true) && (option.selected=true) ">
+    {{option.text}}
+  </button>
+</div>
+<div>
+  <button type="button" role="button"
+	  class="btn btn-info disabled"
+	  ng-click="$ctrl.next()">Nächste Frage</button>
+    {{option.text}}
+  </button>
+</div>
+<div>
+  {{$ctrl.current}}
+</div>

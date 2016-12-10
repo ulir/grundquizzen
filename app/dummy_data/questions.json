@@ -1,0 +1,20 @@
+{
+    "questions" : [
+	{
+	    "text" : "Wie hieß der erste Bundeskańzler der Bundesrepublik Deutschland?",
+	    "options" : [
+		{"id" : "a", "text" : "Peter Hindenburg"},
+		{"id" : "b", "text" : "Ludwig Erhardt"},
+		{"id" : "c", "text" : "Konrad Adenauer", "correct" : true}
+	    ]
+	},
+	{
+	    "text" : "Welcher Krieg wurde durch den westfälischen Frieden beendet?",
+	    "options" : [
+		{"text" : "Der 2. Weltkrieg"},
+		{"text" : "Der Dreißigjährige Krieg", "correct" : true},
+		{"text" : "Der 1. Weltkrieg"}
+	    ]
+	}
+    ]
+}
