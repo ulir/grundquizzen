@@ -1,5 +1,7 @@
 <div>
-  Frage {{$ctrl.currentIndex + 1}}
+Test: {{$ctrl.target}}
+</div>
+Frage {{$ctrl.currentIndex + 1}}
 </div>
 <div>
 {{$ctrl.current.text}}
@@ -12,13 +14,15 @@
     {{option.text}}
   </button>
 </div>
+<br/>
 <div>
   <button type="button" role="button"
-	  class="btn btn-info disabled"
+	  class="btn btn-info"
 	  ng-click="$ctrl.next()">Nächste Frage</button>
     {{option.text}}
   </button>
 </div>
-<div>
-  {{$ctrl.current}}
+<br/>
+<div ng-show="$ctrl.current.answered">
+  {{$ctrl.current.explain}}
 </div>

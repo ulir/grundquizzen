@@ -6,7 +6,9 @@
 		{"id" : "a", "text" : "Peter Hindenburg"},
 		{"id" : "b", "text" : "Ludwig Erhardt"},
 		{"id" : "c", "text" : "Konrad Adenauer", "correct" : true}
-	    ]
+	    ],
+	    "explain" : "Im Jahre 1949 wurde Konrad Adenauer (CDU) zum ersten Bundeskanzler der Bundesrepublik Deutschland gewählt.",
+	    "labels" : ["Geschichte", "Deutschland", "20. Jahrhundert"] 
 	},
 	{
 	    "text" : "Welcher Krieg wurde durch den westfälischen Frieden beendet?",
@@ -14,7 +16,44 @@
 		{"text" : "Der 2. Weltkrieg"},
 		{"text" : "Der Dreißigjährige Krieg", "correct" : true},
 		{"text" : "Der 1. Weltkrieg"}
-	    ]
+	    ],
+	    "labels" : ["Geschichte", "17. Jahrhundert"]
+	},
+	{
+	    "text" : "Wann entstand der Planet Erde?",
+	    "options" : [
+		{"text" : "vor 4,5 Milliarden Jahren", "correct" : true},
+		{"text" : "vor 4,5 Millionen Jahren"},
+		{"text" : "vor 45 Millionen Jahren"}
+	    ],
+	    "labels" : ["Astronomie"]
+	},
+	{
+	    "text" : "Welchen Durchmesser hat die Erde?",
+	    "options" : [
+		{"text" : "ca 40,000 km"},
+		{"text" : "ca 12,800 km", "correct" : true},
+		{"text" : "ca 5000 km"}
+	    ],
+	    "labels" : ["Astronomie"]
+	},
+	{
+	    "text" : "Welchen Umfang hat die Erde?",
+	    "options" : [
+		{"text" : "ca 13,000 km"},
+		{"text" : "ca 28,000 km"},
+		{"text" : "ca 40,000 km", "correct" : true}
+	    ],
+	    "labels" : ["Astronomie"]
+	},
+	{
+	    "text" : "In welchem Jahr wurde die Berliner Mauer errichtet?",
+	    "options" : [
+		{"text" : "1961", "correct" : true},
+		{"text" : "1947"},
+		{"text" : "1969"}
+	    ],
+	    "labels" : ["Geschichte", "Deutschland", "20. Jahrhundert"] 
 	}
     ]
 }
