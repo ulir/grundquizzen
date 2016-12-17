@@ -23,6 +23,11 @@ Frage {{$ctrl.currentIndex + 1}}
   </button>
 </div>
 <br/>
+<br/>
 <div ng-show="$ctrl.current.answered">
-  {{$ctrl.current.explain}}
+<span ng-repeat="label in $ctrl.current.labels">
+ <span class="label label-info">{{label}}</span>
+</span>
+<br/>
+{{$ctrl.current.explain}}
 </div>
