@@ -8,7 +8,7 @@
 		{"id" : "c", "text" : "Konrad Adenauer", "correct" : true}
 	    ],
 	    "explain" : "Im Jahre 1949 wurde Konrad Adenauer (CDU) zum ersten Bundeskanzler der Bundesrepublik Deutschland gewählt.",
-	    "labels" : ["Geschichte", "Deutschland", "20. Jahrhundert"] 
+	    "labels" : ["Geschichte", "Deutschland", "20. Jahrhundert"]
 	},
 	{
 	    "text" : "Welcher Krieg wurde durch den westfälischen Frieden beendet?",
@@ -26,7 +26,25 @@
 		{"text" : "vor 4,5 Millionen Jahren"},
 		{"text" : "vor 45 Millionen Jahren"}
 	    ],
-	    "labels" : ["Astronomie"]
+	    "labels" : ["Astronomie", "Erdgeschichte"]
+	},
+	{
+	    "text" : "Seit wann gibt es Leben auf der Erde?",
+	    "options" : [
+		{"text" : "seit mindestens 2 Millionen Jahren"},
+		{"text" : "seit mindestens 3,4 Milliarden Jahren", "correct" : true},
+		{"text" : "seit mindestens 13 Milliarden Jahren"}
+	    ],
+	    "labels" : ["Erdgeschichte"]
+	},
+	{
+	    "text" : "Seit wann gibt es den Menschen (Homo Sapiens)",
+	    "options" : [
+		{"text" : "seit mindestens 10 Tausend Jahren"},
+		{"text" : "seit mindestens 80 Tausend Jahren"},
+		{"text" : "seit mindestens 300 Tausend Jahren", "correct" : true}
+	    ],
+	    "labels" : ["Erdgeschichte"]
 	},
 	{
 	    "text" : "Welchen Durchmesser hat die Erde?",
@@ -53,7 +71,7 @@
 		{"text" : "1947"},
 		{"text" : "1969"}
 	    ],
-	    "labels" : ["Geschichte", "Deutschland", "20. Jahrhundert"] 
+	    "labels" : ["Geschichte", "Deutschland", "20. Jahrhundert"]
 	}
     ]
 }
