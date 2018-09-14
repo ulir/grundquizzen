@@ -20,6 +20,18 @@
 	    "labels" : ["Geschichte", "17. Jahrhundert"]
 	},
 	{
+	    "text" : "Wann hat Christoph Kolumbus Amerika entdeckt?",
+	    "options" : [
+		{"text" : "1492", "correct" : true},
+		{"text" : "1503"},
+		{"text" : "1590"}
+	    ],
+	    "links" : [
+	        {"anchor" : :"Wikipedia", "url" : "https://de.wikipedia.org/wiki/Entdeckung_Amerikas"}
+	    ],
+	    "labels" : ["Geschichte", "15. Jahrhundert"]
+	},
+	{
 	    "text" : "Wann entstand der Planet Erde?",
 	    "options" : [
 		{"text" : "vor 4,5 Milliarden Jahren", "correct" : true},
@@ -31,7 +43,7 @@
 	{
 	    "text" : "Seit wann gibt es Leben auf der Erde?",
 	    "options" : [
-		{"text" : "seit mindestens 2 Millionen Jahren"},
+		{"text" : "seit mindestens 2,5 Millionen Jahren"},
 		{"text" : "seit mindestens 3,4 Milliarden Jahren", "correct" : true},
 		{"text" : "seit mindestens 13 Milliarden Jahren"}
 	    ],
@@ -72,6 +84,30 @@
 		{"text" : "1969"}
 	    ],
 	    "labels" : ["Geschichte", "Deutschland", "20. Jahrhundert"]
+	},
+	{
+	    "text" : "Wann wurde Johann Wolfgang von Goethe geboren?",
+	    "options" : [
+		{"text" : "1635"},
+		{"text" : "1749", "correct" : true},
+		{"text" : "1840"}
+	    ],
+	    "links" : [
+	        {"anchor" : :"Wikipedia", "url" : "https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe"}
+	    ],
+	    "labels" : ["Literatur", "Deutschland"]
+	},
+	{
+	    "text" : "Wann wurde Friedrich Schiller geboren?",
+	    "options" : [
+		{"text" : "1590"},
+		{"text" : "1645"},
+		{"text" : "1749", "correct" : true}
+	    ],
+	    "links" : [
+	        {"anchor" : :"Wikipedia", "url" : "https://de.wikipedia.org/wiki/Friedrich_Schiller"}
+	    ],
+	    "labels" : ["Literatur", "Deutschland"]
 	}
     ]
 }
