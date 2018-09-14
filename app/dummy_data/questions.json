@@ -27,7 +27,7 @@
 		{"text" : "1590"}
 	    ],
 	    "links" : [
-	        {"anchor" : :"Wikipedia", "url" : "https://de.wikipedia.org/wiki/Entdeckung_Amerikas"}
+	        {"anchor" : "Wikipedia", "url" : "https://de.wikipedia.org/wiki/Entdeckung_Amerikas"}
 	    ],
 	    "labels" : ["Geschichte", "15. Jahrhundert"]
 	},
@@ -93,7 +93,7 @@
 		{"text" : "1840"}
 	    ],
 	    "links" : [
-	        {"anchor" : :"Wikipedia", "url" : "https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe"}
+	        {"anchor" : "Wikipedia", "url" : "https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe"}
 	    ],
 	    "labels" : ["Literatur", "Deutschland"]
 	},
@@ -102,10 +102,10 @@
 	    "options" : [
 		{"text" : "1590"},
 		{"text" : "1645"},
-		{"text" : "1749", "correct" : true}
+		{"text" : "1759", "correct" : true}
 	    ],
 	    "links" : [
-	        {"anchor" : :"Wikipedia", "url" : "https://de.wikipedia.org/wiki/Friedrich_Schiller"}
+	        {"anchor" : "Wikipedia", "url" : "https://de.wikipedia.org/wiki/Friedrich_Schiller"}
 	    ],
 	    "labels" : ["Literatur", "Deutschland"]
 	}
